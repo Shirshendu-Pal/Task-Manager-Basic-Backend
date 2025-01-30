@@ -16,7 +16,7 @@ const optionsAdmin = {
       },
     },
     tags: [],
-    basePath: '/api',
+    basePath: '/',
     securityDefinitions: {
       Token: {
         type: 'apiKey',
