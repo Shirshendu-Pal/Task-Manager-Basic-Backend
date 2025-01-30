@@ -29,18 +29,5 @@ if (error)
             }
         },
 
-        jwt: {
-            secret: envVars.SECRET_KEY,
-            accessExpirationMinutes: envVars.JWT_ACCESS_EXPIRATION_MINUTES,
-            refreshExpirationDays: envVars.JWT_REFRESH_EXPIRATION_DAYS,
-            resetPasswordExpirationMinutes: 10,
-            mailVerificationExpirationDays: envVars.JWT_MAIL_VERIFICATION_EXPIRATION_DAYS
-        
-          
-        },
-        mail:{
-            apiKey: envVars.MAIL_API_KEY
-        }
-
 
     }
