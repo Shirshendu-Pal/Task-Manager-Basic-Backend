@@ -51,7 +51,6 @@ router.post('/task', validate(taskValidation.addTask), taskController.addTask)
  *       - name: status
  *         in: query
  *         description: Status flag (true or false)
- *         required: true
  *         schema:
  *           type: boolean
  *       - name: page
