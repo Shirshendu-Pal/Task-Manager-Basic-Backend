@@ -19,7 +19,7 @@ fs.readdirSync(modulesDir).forEach(moduleFolder => {
                 if (file.endsWith('.routes.js')) {
                     const route = require(path.join(routesDir, file));
                     const routeName = file.split('.routes.js')[0]; // Derive route path from file name
-                    const routePath = `/${routeName}`; // Create path like /user, /userAuth, etc.
+                    const routePath = `/`; // Create path like /user, /userAuth, etc.
                     router.use(routePath, route);
                 }
             });

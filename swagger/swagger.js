@@ -25,7 +25,7 @@ const optionsAdmin = {
 		host: 'localhost:8001',
 		// schemes: ['https','http',],
 		// host: "sentdrop.dedicateddevelopers.us",
-		basePath: '/api',
+		basePath: '/',
 		securityDefinitions: {
 			Token: {
 				type: 'apiKey',
