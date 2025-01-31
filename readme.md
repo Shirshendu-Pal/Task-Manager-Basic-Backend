@@ -1,4 +1,4 @@
-module folders have all the things model, controller, service and validations
+modules folders have all the things model, controller, service and validations
 
 also I implemented a swagger to test all the api 
 swagger link
